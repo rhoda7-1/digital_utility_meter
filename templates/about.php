@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
     <title>Digital Utility Meter | About</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="email.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/email.css">
   </head>
   <body>
     <header>
@@ -17,10 +17,10 @@
         </div>
         <nav>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li class="current"><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="register.php">Register</a></li>
+            <li><a href="/">Home</a></li>
+            <li class="current"><a href="/about">About</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/register">Register</a></li>
           </ul>
         </nav>
       </div>
@@ -50,7 +50,7 @@
     </section>
 
     <footer>
-      <p>Digital Utility meter, Copyright &copy; 2020</p>
+      <p>Digital Utility Meter, Copyright &copy; 2020</p>
       <p>contact email: utilitymeter@gmail.co.ke</p>
     </footer>
   </body>

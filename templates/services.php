@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
     <title>Digital Utility Meter| Services</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="email.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/email.css">
   </head>
   <body>
     <header>
@@ -18,10 +18,10 @@
         </div>
         <nav>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li class="current"><a href="services.html">Services</a></li>
-            <li><a href="register.php">Register</a></li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li class="current"><a href="/services">Services</a></li>
+            <li><a href="/register">Register</a></li>
           </ul>
         </nav>
       </div>
@@ -67,9 +67,9 @@
   							<input type="password" placeholder="Password">
               </div>
               <br>
-              <button class="button_1" type="submit"><a href="login.php"> Login</button> <br>
+              <button class="button_1" type="submit"><a href="/login"> Login</button> <br>
               <h1>or Click the button to Register</h1>
-              <button class="button_1" type="submit" ><a href="register.php">Register</button>
+              <button class="button_1" type="submit" ><a href="/register">Register</button>
 					</form>
           </div>
         </aside>

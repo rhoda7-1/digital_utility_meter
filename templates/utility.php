@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
     <title> Digital Utility Meter| Usage</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" type="text/css" href="email.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/email.css">
   </head>
   <body>
     <header>
@@ -20,10 +20,11 @@
         
         <nav>
           <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="index.html">Log Out</a></li>          
+            <li class="current"><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/services">Services</a></li>
+            <!-- TODO: Style the Logout button accordingly -->
+            <li><form action="/logout" method="POST"><button type="submit" class="btn btn-link">Logout</button></form></li>        
           </ul>
         </nav>
       </div>

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="HandheldFriendly" content="true">
     <title> Digital Utility Meter| Welcome</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <header>
@@ -19,10 +19,10 @@
         
         <nav>
           <ul>
-            <li class="current"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="register.php">Register</a></li>          
+            <li class="current"><a href="/">Home</a></li>
+            <li><a href="/about">About</a></li>
+            <li><a href="/services">Services</a></li>
+            <li><a href="/register">Register</a></li>          
           </ul>
         </nav>
       </div>
@@ -33,8 +33,8 @@
         <h1>Managable Digital Utility Meter</h1>
         <p>Digital utility meter is a simple web application that stimulates a utility meter that enables our clients to view and manage their daily consumption of gas, electricity and water.<br>Manage and monitor your facility’s energy needs now. </p>
         <div class="button"> 
-          <a href="login.php" class= " btn btn-one">LOGIN</a>
-          <a href="register.php"class="btn btn-two">REGISTER</a> 
+          <a href="/login" class= " btn btn-one">LOGIN</a>
+          <a href="/register"class="btn btn-two">REGISTER</a> 
         </div>
       </div>
     </section>
@@ -63,7 +63,7 @@
 
         </div>
         <div class="box">
-          <img src="./img/gas2.jpg">
+          <img src="img/gas2.jpg">
           <h3>Gas Usage Statistics</h3>
            <p>The usage of crude oil as a fuel is increasingly replaced by natural gas, thanks to its non-toxicity and economic viability, which is resulting in a significant growth of the global market for gas meters. The efficiency of gas meters in minimising losses in transmission and distribution has prompted their installation in the supply systems, propelling this market, remarkably.</p>
 
@@ -76,7 +76,7 @@
 
     <footer>
       <p>Digital Utility Meter, Copyright &copy; 2020</p>
-      <p>Contact email utilitymeter@gmai.co.ke</p>
+      <p>Contact email utilitymeter@gmail.co.ke</p>
     </footer>
   </body>
 </html>

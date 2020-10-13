@@ -1,23 +1,11 @@
-
 <?php
-
-session_start();
 // header.php
-include ('header.php');
-include "helper.php";
-?>
+include ('partials/header.php');
 
-<?php
-    $user = array();
-    require ('mysqli_connect.php');
-
-    if(isset($_SESSION['userID'])){
-        $user = get_user_info($con, $_SESSION['userID']);
-    }
-
-    if($_SERVER['REQUEST_METHOD'] == 'POST'){
-        require ('login-process.php');
-    }
+// TODO: Format the error output accordingly
+if (isset($errors) && !empty($errors)) {
+    echo $errors[0];
+}
 ?>
 
 <!-- registration area -->
@@ -27,15 +15,15 @@ include "helper.php";
             <div class="text-center pb-5">
                 <h1 class="login-title text-dark">Login</h1>
                 <p class="p-1 m-0 font-ubuntu text-black-50">Login and enjoy additional features</p>
-                <span class="font-ubuntu text-black-50">Create a new <a href="register.php">account</a></span>
+                <span class="font-ubuntu text-black-50">Create a new <a href="/register">account</a></span>
             </div>
             <div class="upload-profile-image d-flex justify-content-center pb-5">
                 <div class="text-center">
-                    <img src="<?php echo isset($user['profileImage']) ? $user['profileImage'] : './assets/profile/beard.png' ; ?>" style="width: 200px; height: 200px" class="img rounded-circle" alt="profile">
+                    <img src="assets/profile/beard.png" style="width: 200px; height: 200px" class="img rounded-circle" alt="profile">
                 </div>
             </div>
             <div class="d-flex justify-content-center">
-                <form action="login.php" method="post" enctype="multipart/form-data" id="log-form">
+                <form action="/login" method="post" enctype="multipart/form-data" id="log-form">
 
                     <div class="form-row my-4">
                         <div class="col">
@@ -63,5 +51,5 @@ include "helper.php";
 
 <?php
 // footer.php
-include ('footer.php');
+include ('partials/footer.php');
 ?>
